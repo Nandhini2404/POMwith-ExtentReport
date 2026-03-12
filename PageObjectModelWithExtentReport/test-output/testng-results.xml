@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-21T12:49:09 IST" name="Suite" finished-at="2026-02-21T12:49:25 IST" duration-ms="16007">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testcases.TC002_LoginFunctionality@3527942a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-02-21T12:49:09 IST" name="Test" finished-at="2026-02-21T12:49:25 IST" duration-ms="16007">
+      <class name="testcases.TC002_LoginFunctionality">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:testcases.TC002_LoginFunctionality@3527942a]" started-at="2026-02-21T12:49:09 IST" name="startReport" finished-at="2026-02-21T12:49:09 IST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="setValues()[pri:0, instance:testcases.TC002_LoginFunctionality@3527942a]" started-at="2026-02-21T12:49:09 IST" name="setValues" finished-at="2026-02-21T12:49:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testcases.TC002_LoginFunctionality@3527942a]" started-at="2026-02-21T12:49:09 IST" name="setUpClass" finished-at="2026-02-21T12:49:09 IST" duration-ms="218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4fbda97b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="testcaseDetails()[pri:0, instance:testcases.TC002_LoginFunctionality@3527942a]" started-at="2026-02-21T12:49:09 IST" name="testcaseDetails" finished-at="2026-02-21T12:49:09 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseDetails -->
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:testcases.TC002_LoginFunctionality@3527942a]" started-at="2026-02-21T12:49:10 IST" name="preConditions" finished-at="2026-02-21T12:49:17 IST" duration-ms="7333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="loginFunctionality(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC002_LoginFunctionality@3527942a]" started-at="2026-02-21T12:49:17 IST" name="loginFunctionality" data-provider="fetchData" finished-at="2026-02-21T12:49:18 IST" duration-ms="636" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFunctionality -->
+        <test-method is-config="true" signature="postConditions()[pri:0, instance:testcases.TC002_LoginFunctionality@3527942a]" started-at="2026-02-21T12:49:18 IST" name="postConditions" finished-at="2026-02-21T12:49:18 IST" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConditions -->
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:testcases.TC002_LoginFunctionality@3527942a]" started-at="2026-02-21T12:49:18 IST" name="preConditions" finished-at="2026-02-21T12:49:24 IST" duration-ms="5795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="loginFunctionality(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC002_LoginFunctionality@3527942a]" started-at="2026-02-21T12:49:24 IST" name="loginFunctionality" data-provider="fetchData" finished-at="2026-02-21T12:49:25 IST" duration-ms="593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFunctionality -->
+        <test-method is-config="true" signature="postConditions()[pri:0, instance:testcases.TC002_LoginFunctionality@3527942a]" started-at="2026-02-21T12:49:25 IST" name="postConditions" finished-at="2026-02-21T12:49:25 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConditions -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testcases.TC002_LoginFunctionality@3527942a]" started-at="2026-02-21T12:49:25 IST" name="tearDownClass" finished-at="2026-02-21T12:49:25 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="stopReport()[pri:0, instance:testcases.TC002_LoginFunctionality@3527942a]" started-at="2026-02-21T12:49:25 IST" name="stopReport" finished-at="2026-02-21T12:49:26 IST" duration-ms="569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- testcases.TC002_LoginFunctionality -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
